@@ -12,6 +12,7 @@ General Abstractions
 - `IAggregateRoot`
 - `IRepository`
 - `ValueObject`
+- `IUnitOfWork`
 
 Mediator Abstractions
 

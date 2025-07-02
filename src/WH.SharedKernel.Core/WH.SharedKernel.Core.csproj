@@ -7,7 +7,7 @@
     <PackageId>WH.SharedKernel</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>WH.SharedKernel</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Willian Hilton</Authors>
     <Company>WH</Company>
     <Product>WH.SharedKernel</Product>
