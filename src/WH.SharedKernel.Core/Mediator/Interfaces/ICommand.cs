@@ -3,4 +3,4 @@ using WH.SimpleMediator;
 
 namespace WH.SharedKernel.Mediator;
 
-public interface ICommand<TResponse> : IRequest<TResponse> where TResponse : Result { }
+public interface ICommand : IRequest<Result> { }
