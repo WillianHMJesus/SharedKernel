@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Reflection;
 using System.Text;
+using WH.SharedKernel.Notifications;
 using WH.SharedKernel.Mediator;
 using WH.SimpleMediator.Extensions.Microsoft.DependencyInjection;
 
@@ -94,7 +94,7 @@ public static class ServiceCollectionExtensions
         this IServiceCollection services,
         ServiceLifetime lifetime)
     {
-        services.Add(new ServiceDescriptor(typeof(IEmailSender), typeof(IEmailSender), lifetime));
+        services.Add(new ServiceDescriptor(typeof(ISmtpEmailSender), typeof(SmtpEmailSender), lifetime));
 
         return services;
     }
