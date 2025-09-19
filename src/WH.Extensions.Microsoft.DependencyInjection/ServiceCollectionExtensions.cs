@@ -84,7 +84,7 @@ public static class ServiceCollectionExtensions
         {
             config.RegisterServicesFromAssemblies(configuration.AssembliesToRegister.ToArray());
             configuration.BehaviorsToRegister.ForEach(x => config.AddPipelineBehavior(x));
-            
+            config.AddLifetime(configuration.Lifetime);
         });
 
         return services;
