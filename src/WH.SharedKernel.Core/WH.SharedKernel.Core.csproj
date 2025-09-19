@@ -7,7 +7,7 @@
     <PackageId>WH.SharedKernel</PackageId>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>WH.SharedKernel</Title>
-    <Version>1.0.2</Version>
+    <Version>1.0.4</Version>
     <Authors>Willian Hilton</Authors>
     <Company>WH</Company>
     <Product>WH.SharedKernel</Product>
@@ -28,7 +28,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="12.0.0" />
-    <PackageReference Include="WH.SimpleMediator" Version="1.0.3" />
+    <PackageReference Include="WH.SimpleMediator" Version="1.0.4" />
   </ItemGroup>
 
 </Project>
