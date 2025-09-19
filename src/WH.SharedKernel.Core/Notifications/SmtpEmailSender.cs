@@ -1,9 +1,9 @@
 ﻿using System.Net;
 using System.Net.Mail;
 
-namespace WH.SharedKernel.Core.Notifications;
+namespace WH.SharedKernel.Notifications;
 
-internal sealed class SmtpEmailSender : ISmtpEmailSender
+public sealed class SmtpEmailSender : ISmtpEmailSender
 {
     public void Send(MailMessage message, string host, int port, NetworkCredential? credential = null)
     {

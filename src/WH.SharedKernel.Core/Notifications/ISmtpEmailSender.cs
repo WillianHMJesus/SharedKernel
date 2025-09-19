@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Net.Mail;
 
-namespace WH.SharedKernel.Core.Notifications;
+namespace WH.SharedKernel.Notifications;
 
 public interface ISmtpEmailSender
 {
